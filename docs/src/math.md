@@ -1,4 +1,5 @@
-# Introduction
+# Geometric interpretation of reverse and forwards mode AD
+
 Let us think of our types geometrically. In other words, elements of a type form a _manifold_.
 This document will explain this point of view in some detail.
 
@@ -22,7 +23,7 @@ dual to ``T_p``
 
 The collection of cotangent spaces ``{T^*_pM}`` for ``p\in M`` is called the _cotangent bundle_ of ``M``.
 
-### Push-forwards and pullbacks
+## Push-forwards and pullbacks
 
 Let ``N`` be another type, defined by numbers ``y_1,...,y_n``, and let ``g:M -> N`` be a _map_, that is, 
 an ``n``-dimensional vector ``(g_1, ..., g_m)`` of functions on ``M``.
